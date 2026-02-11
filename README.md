@@ -8,13 +8,13 @@ For this hackathon build, we focus mainly on supporting **hearing and speech imp
 ```bash
 conda activate mrt-sign
 python -m streamlit run ui.py
-
+```
 
 ## Run the frontend
 ```bash
 npm install
 npm run dev
-
+```
 
 
 
