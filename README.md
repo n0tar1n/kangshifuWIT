@@ -1,11 +1,13 @@
+#ConnectAble
 
-  # Build ConnectAble App
+ConnectAble helps MRT service staff communicate smoothly with people who have hearing, speech, or visual impairments by adapting the conversation mode to the user’s needs.
 
-  This is a code bundle for Build ConnectAble App. The original project is available at https://www.figma.com/design/wgHuifCBfkJRA5LU08Ilzb/Build-ConnectAble-App.
+For this hackathon build, we focus mainly on supporting hearing and speech impairments. The partner can use sign/gesture input to express their intent, and the app converts it into clear text so staff can respond quickly and accurately.
 
-  ## Running the code
+Run the frontend
+npm install
+npm run dev
 
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+Run the hand sign detection model (separate demo)
+conda activate mrt-sign
+python -m streamlit run ui.py
